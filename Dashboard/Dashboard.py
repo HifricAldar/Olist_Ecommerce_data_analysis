@@ -24,6 +24,7 @@ def customer_place():
         plot_bgcolor='rgba(0,0,0,0)',
         paper_bgcolor='#5e697a',
         xaxis=dict(showgrid=False),
+        font=dict(color='white')
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -53,6 +54,7 @@ def top_product_category():
                       plot_bgcolor='rgba(0,0,0,0)',
                       paper_bgcolor='#5e697a',
                       xaxis=dict(showgrid=False),
+                      font=dict(color='white')
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -107,6 +109,7 @@ def weekly_sales_per_years():
         ),
         plot_bgcolor='rgba(0,0,0,0)',
         paper_bgcolor='#5e697a',
+        font=dict(color='white')
     )
     st.plotly_chart(fig, use_container_width=True)
 
