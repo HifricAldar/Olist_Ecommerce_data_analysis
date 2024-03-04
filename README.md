@@ -1,2 +1,5 @@
-Run Streamlit App
-streamlit run Dashboard.py
+# Olist E-Commerce Dashboard 
+## Run steamlit app
+```
+streamlit run dashboard.py
+```
