@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 
 st.set_page_config(page_title="Dashboard E-Commerce Olist", page_icon=":bar_chart:", layout="wide")
 
-df = pd.read_csv("https://github.com/HifricAldar/Olist_Ecommerce_data_analysis/blob/main/Dashboard/olist_ecommerce_cleaned.csv")
+df = pd.read_csv("olist_ecommerce_cleaned.csv")
 
 st.markdown("<h1 class='labels-for-title'>Dashboard E-Commerce Olist</h1>", unsafe_allow_html=True)
 
