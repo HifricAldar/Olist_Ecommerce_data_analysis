@@ -21,10 +21,10 @@ def customer_place():
                 title='Top 10 Kota dengan Jumlah Pelanggan Terbanyak',
                 color_discrete_sequence=['skyblue']) 
     fig.update_layout(
-        plot_bgcolor='rgba(0,0,0,0)',
-        paper_bgcolor='#5e697a',
+        #plot_bgcolor='rgba(0,0,0,0)',
+        #paper_bgcolor='#5e697a',
         xaxis=dict(showgrid=False),
-        font=dict(color='white')
+        #font=dict(color='white')
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -51,10 +51,10 @@ def top_product_category():
     fig.update_layout(title='Top 5 Kategori Produk Paling Banyak Dibeli', 
                       yaxis_title='Produk', 
                       xaxis_title='Jumlah Pesanan',
-                      plot_bgcolor='rgba(0,0,0,0)',
-                      paper_bgcolor='#5e697a',
+                      #plot_bgcolor='rgba(0,0,0,0)',
+                      #paper_bgcolor='#5e697a',
                       xaxis=dict(showgrid=False),
-                      font=dict(color='white')
+                      #font=dict(color='white')
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -107,9 +107,9 @@ def weekly_sales_per_years():
             tick0=1,
             dtick=1
         ),
-        plot_bgcolor='rgba(0,0,0,0)',
-        paper_bgcolor='#5e697a',
-        font=dict(color='white')
+        #plot_bgcolor='rgba(0,0,0,0)',
+        #paper_bgcolor='#5e697a',
+        #font=dict(color='white')
     )
     st.plotly_chart(fig, use_container_width=True)
 
